@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Luxury Editorial & Causal AI Styles for Mirror Future */
+body {
+  background-color: #EAEAEB;
+  color: #18181b;
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+.font-brand {
+  font-family: 'Century Gothic', 'Outfit', 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #E0E0E3;
+}
+::-webkit-scrollbar-thumb {
+  background: #A1A1AA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5500;
+}
+
+/* Typography Art: Hollow Outline Text */
+.editorial-outline-white {
+  -webkit-text-stroke: 1.2px #FFFFFF;
+  color: transparent;
+}
+
+.editorial-outline-black {
+  -webkit-text-stroke: 1.5px #1A1A1A;
+  color: transparent;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.45);
+  color: transparent;
+}
+
+.text-outline-orange {
+  -webkit-text-stroke: 1.5px #FF5500;
+  color: transparent;
+}
+
+.text-outline-white {
+  -webkit-text-stroke: 1.2px #FFFFFF;
+  color: transparent;
+}
+
+/* Reality outline: muestra un poco más de la mitad inferior con espacio visual simulado */
+.reality-outline-bottom {
+  clip-path: inset(44% 0 0 0);
+  -webkit-clip-path: inset(44% 0 0 0);
+  margin-top: -0.24em;
+}
+
+/* Vertical Text Mode */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
